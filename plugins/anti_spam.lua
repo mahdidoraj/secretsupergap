@@ -29,9 +29,6 @@ local function pre_process(msg)
     if msg.from.last_name then
       redis:hset(hash, 'last_name', msg.from.last_name)
     end
-    if msg.from.username then
-      redis:hset(hash, 'username', msg.from.username)
-    end
   end
 
   -- Save stats on Redis
@@ -132,3 +129,7 @@ return {
 }
 
 end
+--Copyright; @behroozyaghi
+--Persian Translate; @behroozyaghi
+--ch : @nod32team
+--کپی بدون ذکر منبع حرام است
