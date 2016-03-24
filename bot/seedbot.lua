@@ -211,7 +211,7 @@ function create_config( )
     "Add_Bot",
     "adder",
     "add-plugins",
-    "addpunisher",
+    "addsecret",
     "admin",
     "all",
     "anti_ads",
